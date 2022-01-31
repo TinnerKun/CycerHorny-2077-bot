@@ -21,13 +21,10 @@ module.exports = {
 		.setDescription('คนทำและผู้ใช้งาน'),
 	async execute(client, interaction) {
         let c = new MessageEmbed()
-                .setTitle(`ผู้จัดทำ`)
-				.setDescription(`
-                Script original : NEXT#8233 and ⵝⵉⵏⵏⴻⵔⴿⵓⵏ#5580 // จำเป็นต้องมี
-                Bringer to work : //แก้ได้แค่ตรงนี้
-                `)
-				.setColor('RANDOM')
-				.setTimestamp()
+                .setTitle('ผู้จัดทำ และ ผู้ที่นำไปใช้งาน')
+		.setDescription('Script original : NEXT#8233 and ⵝⵉⵏⵏⴻⵔⴿⵓⵏ#5580\nBringer to work : //แก้ได้แค่ตรงนี้')
+		.setColor('RANDOM')
+		.setTimestamp()
 		await interaction.reply({embeds : [c]})
 	},
 };
