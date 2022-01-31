@@ -1,10 +1,10 @@
-\# CycerHorny-2077-bot
+# CycerHorny-2077-bot
 
-\## โปรดอ่านก่อนนำไปใช้
+### โปรดอ่านก่อนนำไปใช้
 
   
 
-โปรดปฏิบัติตามที่ LICENSE กำหนด
+#### โปรดปฏิบัติตามที่ LICENSE กำหนด
 
 \- ประกาศเกี่ยวกับใบอนุญาตและลิขสิทธิ์
 
@@ -24,36 +24,23 @@
 
   
 
+```
 const { SlashCommandBuilder } = require('@discordjs/builders');
-
 const { MessageEmbed } = require('discord.js')
 
-  
-
 module.exports = {
-
  names: 'credit',
-
  data: new SlashCommandBuilder()
-
   .setName('credit')
-
   .setDescription('คนทำและผู้ใช้งาน'),
-
  async execute(client, interaction) {
-
         let c = new MessageEmbed()
-
                 .setTitle('ผู้จัดทำ และ ผู้ที่นำไปใช้งาน')
-
-  .setDescription('Script original : NEXT#8233 and ⵝⵉⵏⵏⴻⵔⴿⵓⵏ#5580\\nBringer to work : //แก้ได้แค่ตรงนี้')
-
+  .setDescription('Script original : NEXT#8233 and ⵝⵉⵏⵏⴻⵔⴿⵓⵏ#5580\nBringer to work : //แก้ได้แค่ตรงนี้')
   .setColor('RANDOM')
-
   .setTimestamp()
-
-  await interaction.reply({embeds : \[c\]})
-
+  await interaction.reply({embeds : [c]})
  },
-
 };
+
+```
