@@ -1,0 +1,1 @@
+นี้คือการใช้ command แบบปกติ ที่ไม่ใช้ slashcommand
